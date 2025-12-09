@@ -2,9 +2,10 @@
 
 import { MdEmail } from "react-icons/md";
 import { IoLogoWhatsapp } from "react-icons/io";
+import { AnimatedItem } from "./animatedItem";
 import DotIcon from "./dotIcon";
 import Title from "./title";
-import { AnimatedItem } from "./animatedItem";
+
 
 export default function Contact() {
   return (

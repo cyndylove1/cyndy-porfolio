@@ -2,6 +2,7 @@
 
 import Image, { StaticImageData } from "next/image";
 import { IoLogoGithub } from "react-icons/io5";
+import { AnimatedItem } from "@/component/animatedItem";
 import Link from "next/link";
 import suft from "../assets/suft.png";
 import chequemate from "../assets/chequemate 2.png";
@@ -10,7 +11,7 @@ import flowApp from "../assets/flow app1.png";
 import dashboard from "../assets/dashboard 2.png";
 import Button from "@/component/button";
 import DotIcon from "@/component/dotIcon";
-import { AnimatedItem } from "@/component/animatedItem";
+
 
 type Project = {
   image: StaticImageData;

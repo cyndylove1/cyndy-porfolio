@@ -1,8 +1,9 @@
 'use client';
 import { IoLogoGithub } from "react-icons/io5";
 import { FaLinkedin } from "react-icons/fa";
-import Logo from "./logo";
 import { AnimatedItem } from "./animatedItem";
+import Logo from "./logo";
+
 export default function Footer() {
   return (
     <footer className="w-full text-gray-300 py-10 lg:px-[4rem] xl:px-[6rem] px-4 md:px-8 border-t-[1px] border-(--gray)">
