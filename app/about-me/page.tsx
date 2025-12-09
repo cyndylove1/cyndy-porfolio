@@ -10,19 +10,19 @@ import { AnimatedItem } from "@/component/animatedItem";
 export default function AboutMe() {
   return (
     <section>
-      <div className="w-full text-(--gray) py-[7rem] lg:px-[4rem] xl:px-[6rem] px-4 md:px-8 grid lg:grid-cols-2 grid-cols-1 items-center relative overflow-hidden">
+      <div className="w-full text-(--gray) py-[7rem] lg:px-[4rem] xl:px-[6rem] px-4 md:px-8 grid lg:grid-cols-2 grid-cols-1 relative">
         {/* Left Content */}
         <div className="xl:max-w-lg">
-          <h2 className="text-[26px] font-semibold whitespace-nowrap">
+          <h2 className="text-[26px] font-semibold mb-10 whitespace-nowrap">
             <div>
               <span className="text-(--primary)">/</span>about-me
-              <p className="text-[13px] mt-2 text-(--gray) font-[400]">
-                Who am i?
-              </p>
             </div>
           </h2>
           <AnimatedItem index={0} delay={0.05}>
-            <p className="mt-20 mb-3 text-[14px] text-(--gray)">
+            <p className="text-[13px] mt-2 text-(--gray) font-[400]">
+              Who am i?
+            </p>
+            <p className="mb-3 text-[14px] text-(--gray)">
               Hello, I’m Cynthia!
             </p>
             <p className="mb-4 leading-[25px] md:text-[14px] text-[12px] text-(--gray)">
@@ -51,7 +51,7 @@ export default function AboutMe() {
               <Image
                 src={hero}
                 alt="hero"
-                className="relative z-10 opacity-90 select-none w-[800px]"
+                className="relative z-10 opacity-90 select-none w-[600px]"
               />
             </div>
             {/* Dot Pattern below*/}
@@ -82,8 +82,6 @@ export default function AboutMe() {
       <div className="absolute -left-10 top-[14rem] z-0 hidden lg:flex">
         <DotIcon width={84} height={84} />
       </div>
-      {/* right icon */}
-      <div className="absolute -right-10 top-[14rem] w-[91px] h-[91px] border border-(--gray) z-0 hidden lg:flex"></div>
     </section>
   );
 }

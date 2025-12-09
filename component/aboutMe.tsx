@@ -10,9 +10,8 @@ import Link from "next/link";
 
 export default function AboutMe() {
   return (
-    <section className="w-full text-(--gray) py-[7rem] lg:px-[4rem] xl:px-[6rem] px-4 md:px-8 grid lg:grid-cols-2 grid-cols-1 items-center relative">
+    <section className="w-full text-(--gray) py-[7rem] lg:px-[4rem] xl:px-[6rem] px-4 md:px-8 grid lg:grid-cols-2 grid-cols-1 relative">
       {/* Left Content */}
-
       <div className="xl:max-w-lg">
         <Title text="about-me" width={350} />
         <AnimatedItem index={0} delay={0.05}>
