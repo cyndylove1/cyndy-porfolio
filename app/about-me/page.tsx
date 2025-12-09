@@ -10,7 +10,7 @@ import { AnimatedItem } from "@/component/animatedItem";
 export default function AboutMe() {
   return (
     <section>
-      <div className="w-full text-gray-200 py-[7rem] lg:px-[4rem] xl:px-[6rem] px-4 md:px-8 grid lg:grid-cols-2 grid-cols-1 items-center relative overflow-hidden">
+      <div className="w-full text-(--gray) py-[7rem] lg:px-[4rem] xl:px-[6rem] px-4 md:px-8 grid lg:grid-cols-2 grid-cols-1 items-center relative overflow-hidden">
         {/* Left Content */}
         <div className="xl:max-w-lg">
           <h2 className="text-[26px] font-semibold whitespace-nowrap">
@@ -51,7 +51,7 @@ export default function AboutMe() {
               <Image
                 src={hero}
                 alt="hero"
-                className="relative z-10 opacity-90 select-none w-[600px]"
+                className="relative z-10 opacity-90 select-none w-[800px]"
               />
             </div>
             {/* Dot Pattern below*/}
