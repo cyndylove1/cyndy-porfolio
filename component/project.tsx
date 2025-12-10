@@ -7,6 +7,7 @@ import { AnimatedItem } from "./animatedItem";
 import suft from "../app/assets/suft.png";
 import chequemate from "../app/assets/chequemate 2.png";
 import flowApp from "../app/assets/flow app1.png";
+import blott from "../app/assets/blottImage.png";
 import Button from "./button";
 import DotIcon from "./dotIcon";
 import Title from "./title";
@@ -35,6 +36,15 @@ export default function Project() {
       github: "https://github.com/cyndylove1/suft",
     },
     {
+      image: blott,
+      stack: "Next js, Tailwindcss, typescript, React-Query, Apis",
+      title: "Blott News",
+      desc: "News Channel",
+      buttons: ["Live <~>"],
+      live: "https://blott-news.vercel.app/",
+      github: "https://github.com/cyndylove1/Blott",
+    },
+    {
       image: chequemate,
       stack: "React js, Tailwindcss, Javascript",
       title: "ChequeMate",
@@ -42,15 +52,6 @@ export default function Project() {
       buttons: ["Live <~>"],
       live: "https://chequiemate.vercel.app/",
       github: "https://github.com/cyndylove1/chequie",
-    },
-    {
-      image: flowApp,
-      stack: "React js, Tailwindcss, Javascript",
-      title: "Flow App",
-      desc: "Flow App is designed exclusively for making seamless payments.",
-      buttons: ["Live <~>"],
-      live: "https://flow-app-five.vercel.app/",
-      github: "https://github.com/cyndylove1/Flow-app",
     },
   ];
 

@@ -91,7 +91,7 @@ export default function Navbar() {
                   }`}
                 >
                   <Link href={link.href} onClick={() => setIsMobileOpen(false)}>
-                    <span className="text-text-(--primary)">#</span>
+                    <span className="text-(--primary)">#</span>
                     {link.label}
                   </Link>
                 </li>

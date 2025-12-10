@@ -8,6 +8,7 @@ import suft from "../assets/suft.png";
 import chequemate from "../assets/chequemate 2.png";
 import mental from "../assets/mental.png";
 import flowApp from "../assets/flow app1.png";
+import blott from "../assets/blottImage.png";
 import dashboard from "../assets/dashboard 2.png";
 import Button from "@/component/button";
 import DotIcon from "@/component/dotIcon";
@@ -34,6 +35,15 @@ export default function Projects() {
       buttons: ["Live <~>"],
       live: "https://suft-comfort.vercel.app/",
       github: "https://github.com/cyndylove1/suft",
+    },
+    {
+      image: blott,
+      stack: "Next js, Tailwindcss, typescript, React-Query, Apis",
+      title: "Blott News",
+      desc: "News Channel",
+      buttons: ["Live <~>"],
+      live: "https://blott-news.vercel.app/",
+      github: "https://github.com/cyndylove1/Blott",
     },
     {
       image: chequemate,
