@@ -23,7 +23,7 @@ export default function Skills({ showLeft = false }: SkillsProps) {
         </AnimatedItem>
 
         {/* Skills Grid */}
-        <AnimatedItem index={1} delay={0.1}>
+        <AnimatedItem index={1} delay={0.25}>
           <SkillsGrid cols="grid-cols-1 md:grid-cols-3" />
         </AnimatedItem>
       </div>
