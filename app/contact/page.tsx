@@ -35,7 +35,7 @@ export default function Contact() {
   return (
     <section className="w-full text-white lg:px-[4rem] xl:px-[6rem] px-4 md:px-8 pb-[6rem] pt-[7rem] relative">
       {/* Title */}
-      <h2 className="text-[26px] font-semibold whitespace-nowrap mb-4">
+      <h2 className="text-[26px] font-semibold whitespace-nowrap mb-4 mt-[3rem]">
         <span className="text-(--primary)">/</span>contacts
       </h2>
 

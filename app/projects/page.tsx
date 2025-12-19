@@ -87,7 +87,7 @@ export default function Projects() {
   return (
     <>
       <section className="lg:px-[4rem] xl:px-[6rem] px-4 md:px-8 py-[7rem] text-white overflow-hidden relative">
-        <h2 className="text-[26px] font-semibold whitespace-nowrap">
+        <h2 className="text-[26px] font-semibold whitespace-nowrap mt-[3rem]">
           <span className="text-(--primary)">/</span>projects
         </h2>
         <h3 className="text-[13px] my-3 text-(--gray)">List of my projects</h3>

@@ -12,7 +12,7 @@ export default function AboutMe() {
     <section>
       <div className="w-full text-white py-[7rem] lg:px-[4rem] xl:px-[6rem] px-4 md:px-8 grid lg:grid-cols-2 grid-cols-1 relative">
         {/* Left Content */}
-        <div className="xl:max-w-lg">
+        <div className="xl:max-w-lg mt-[3rem]">
           <h2 className="text-[26px] font-semibold mb-10 whitespace-nowrap">
             <div>
               <span className="text-(--primary)">/</span>about-me
