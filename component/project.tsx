@@ -75,38 +75,116 @@ export default function Project() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 items-stretch">
           {projects.map((p, index) => (
             <AnimatedItem key={index} index={index} delay={0.05 * index}>
-              <div className="border border-gray-600 rounded-sm overflow-hidden bg-[#2c3036] h-full flex flex-col">
-                <div className="h-[140px] w-full bg-black/40 overflow-hidden group">
+              {/* CARD */}
+              <div
+                className="
+                  group
+                  border border-gray-600
+                  rounded-sm
+                  overflow-hidden
+                  bg-[#2c3036]
+                  h-full
+                  flex flex-col
+                  transition-all
+                  duration-500
+                  ease-in-out
+                  hover:-translate-y-2
+                  hover:shadow-xl
+                  hover:border-gray-400
+                "
+              >
+                {/* IMAGE */}
+                <div className="h-[140px] w-full bg-black/40 overflow-hidden">
                   <Image
                     src={p.image}
                     alt={p.title}
-                    className="w-full h-full object-cover transform transition-transform duration-500 ease-in-out group-hover:scale-110"
+                    className="
+                      w-full h-full object-cover
+                      transition-transform
+                      duration-500
+                      ease-in-out
+                      group-hover:scale-110
+                    "
                   />
                 </div>
 
-                <div className="border-t border-gray-600 flex-1 flex flex-col">
-                  <p className="text-[12px] border-b py-2 px-4 text-gray-400">
+                {/* CONTENT */}
+                <div
+                  className="
+                    border-t border-gray-600
+                    flex-1 flex flex-col
+                    transition-colors
+                    duration-500
+                    group-hover:border-gray-400
+                  "
+                >
+                  <p
+                    className="
+                      text-[12px]
+                      border-b
+                      py-2 px-4
+                      text-gray-400
+                      transition-colors
+                      duration-500
+                      group-hover:text-gray-300
+                    "
+                  >
                     {p.stack}
                   </p>
 
                   <div className="p-4 flex flex-col flex-1">
-                    <h3 className="text-[18px] font-semibold mb-1">
+                    <h3
+                      className="
+                        text-[18px]
+                        font-semibold
+                        mb-1
+                        transition-colors
+                        duration-500
+                        group-hover:text-white
+                      "
+                    >
                       {p.title}
                     </h3>
 
-                    <p className="text-[12px] text-gray-400 flex-1">{p.desc}</p>
+                    <p
+                      className="
+                        text-[12px]
+                        text-gray-400
+                        flex-1
+                        transition-colors
+                        duration-500
+                        group-hover:text-gray-300
+                      "
+                    >
+                      {p.desc}
+                    </p>
 
+                    {/* ACTIONS */}
                     <div className="flex items-center gap-[20px] mt-4">
+                      {/* BUTTONS (DIRECT HOVER ONLY) */}
                       <div className="flex gap-3">
                         {p.buttons.map((btn, i) => (
                           <Link key={i} href={p.live ?? "#"}>
-                            <Button text={btn} hideIcon />
+                            <Button
+                              text={btn}
+                              hideIcon
+                            />
                           </Link>
                         ))}
                       </div>
 
+                      {/* GITHUB ICON (DIRECT HOVER ONLY) */}
                       <Link href={p.github ?? "#"} target="_blank">
-                        <IoLogoGithub className="text-2xl text-(--gray) hover:text-white transition cursor-pointer" />
+                        <IoLogoGithub
+                          className="
+                            text-2xl
+                            text-(--gray)
+                            transition-colors
+                            duration-300
+                            hover:text-white
+                            cursor-pointer
+                          "
+                        />
                       </Link>
                     </div>
                   </div>
