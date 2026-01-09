@@ -217,7 +217,6 @@ export default function Projects() {
             </AnimatedItem>
           ))}
         </div>
-
         {/* left Icon */}
         <div className="absolute -left-10 top-[14rem] z-0 hidden lg:flex">
           <DotIcon width={84} height={84} />

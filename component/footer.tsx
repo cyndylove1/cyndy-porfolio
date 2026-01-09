@@ -45,7 +45,7 @@ export default function Footer() {
       {/* COPYRIGHT */}
       <AnimatedItem index={2} delay={0.15}>
         <div className="mt-12 text-center text-sm text-gray-500">
-          © Copyright 2024. Nweke Cynthia
+          &copy; 2024 Nweke Cynthia Chinenye.
         </div>
       </AnimatedItem>
     </footer>

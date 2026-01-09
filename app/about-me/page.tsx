@@ -1,11 +1,11 @@
-"use client";
-
+'use client';
 import Image from "next/image";
 import hero from "@/public/woman with.png";
 import DotIcon from "../../component/dotIcon";
 import SkillsGrid from "@/component/skillsGrid";
 import FunFacts from "@/component/funFacts";
 import { AnimatedItem } from "@/component/animatedItem";
+
 
 export default function AboutMe() {
   return (

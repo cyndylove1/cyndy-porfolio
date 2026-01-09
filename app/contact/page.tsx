@@ -7,6 +7,7 @@ import DotIcon from "../../component/dotIcon";
 import Button from "@/component/button";
 import { AnimatedItem } from "@/component/animatedItem";
 
+
 export default function Contact() {
   const form = useRef<HTMLFormElement | null>(null);
 

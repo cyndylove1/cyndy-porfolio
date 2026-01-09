@@ -6,7 +6,6 @@ import { IoLogoGithub } from "react-icons/io5";
 import { AnimatedItem } from "./animatedItem";
 import suft from "../app/assets/suft.png";
 import chequemate from "../app/assets/chequemate 2.png";
-import flowApp from "../app/assets/flow app1.png";
 import blott from "../app/assets/blottImage.png";
 import Button from "./button";
 import DotIcon from "./dotIcon";
