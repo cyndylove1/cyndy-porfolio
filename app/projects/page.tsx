@@ -29,7 +29,7 @@ export default function Projects() {
     {
       image: suft,
       stack:
-        "React js, Tailwindcss, Daisy UI, Context-Api, Typescript, Restful-Apis, Paystack, FlutterWave",
+        "React js, Tailwindcss, Daisy UI, Context-Api, Typescript, Restful-Apis, Paystack, Flutterwave",
       title: "Suft",
       desc: "Suft website is an E-commerce platform that enables individuals to buy products and make payments online",
       buttons: ["Live <~>"],
