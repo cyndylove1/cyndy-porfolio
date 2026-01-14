@@ -70,7 +70,7 @@ export default function Navbar() {
       )}
       {/* Mobile Sidebar*/}
       <div
-        className={`fixed top-0 right-0 h-full w-84 bg-[#282c33] shadow-lg z-50 transform transition-transform duration-300 ease-in-out md:hidden ${
+        className={`fixed top-0 right-0 h-full w-72 bg-[#282c33] shadow-lg z-50 transform transition-transform duration-300 ease-in-out md:hidden ${
           isMobileOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
@@ -87,7 +87,7 @@ export default function Navbar() {
           </div>
 
           {/* Links */}
-          <ul className="mt-10 flex flex-col gap-6 text-[16px] font-semibold text-(--gray)">
+          <ul className="mt-10 flex flex-col gap-6 text-[14px] font-semibold text-(--gray)">
             {links.map((link) => {
               const isActive = pathname === link.href;
               return (
