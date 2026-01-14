@@ -30,7 +30,7 @@ export default function Navbar() {
       {/* Desktop Navbar */}
       <div className="hidden md:flex items-center justify-between py-10 md:px-8 lg:px-[4rem] xl:px-[6rem]  px-4">
         <Logo />
-        <ul className="flex items-center gap-10 text-[14px] font-[600]">
+        <ul className="flex items-center gap-10 text-[14px] text-(--gray) font-[600]">
           {links.map((link) => {
             const isActive = pathname === link.href;
             return (
@@ -60,7 +60,7 @@ export default function Navbar() {
           <TbMenu />
         </button>
       </div>
-      
+
       {/* Overlay */}
       {isMobileOpen && (
         <div
@@ -87,7 +87,7 @@ export default function Navbar() {
           </div>
 
           {/* Links */}
-          <ul className="mt-10 flex flex-col gap-6 text-[14px] font-semibold text-(--gray)">
+          <ul className="mt-10 flex flex-col gap-6 text-[14px] font-[600] text-(--gray)">
             {links.map((link) => {
               const isActive = pathname === link.href;
               return (
