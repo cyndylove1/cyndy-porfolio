@@ -9,8 +9,8 @@ export default function HeroContent() {
     <>
       <section className="grid lg:grid-cols-2 grid-cols-1 items-center gap-10 lg:px-[4rem] xl:px-[6rem] px-4 md:px-8 pt-[7rem] lg:pt-[5rem]">
         {/* LEFT TEXT */}
-        <div className="mt-[3rem] lg:mt-0"><AnimatedItem index={0} delay={0.05}>
-          
+        <div className="mt-[3rem] lg:mt-0">
+          <AnimatedItem index={0} delay={0.05}>
             <span className="text-(--primary) text-[15px]">
               Frontend developer
             </span>
@@ -33,8 +33,8 @@ export default function HeroContent() {
 
           <AnimatedItem index={3} delay={0.2}>
             <a
-              href="Nweke Cynthia  Resume.pdf"
-              download="Nweke Cynthia  Resume.pdf"
+              href="NWEKE CHINENYE CYNTHIA RESUME.PDF"
+              download="NWEKE CHINENYE CYNTHIA RESUME.PDF"
             >
               <Button text="Download Cv" hideIcon={true} />
             </a>
