@@ -11,6 +11,7 @@ import flowApp from "@/public/assets/flow app1.png";
 import blott from "@/public/assets/blottImage.png";
 import dashboard from "@/public/assets/dashboard 2.png";
 import nextaflow from "@/public/assets/nextaflow2.png";
+import nexta from "@/public/assets/nexta1.png";
 import Button from "@/component/button";
 import DotIcon from "@/component/dotIcon";
 
@@ -27,6 +28,16 @@ type Project = {
 
 export default function Projects() {
   const projects: Project[] = [
+    {
+      image: nexta,
+      stack:
+        "Next js, Tailwindcss, Daisy UI, Typescript, Restful-Apis, React-Query",
+      title: "NextaFlow",
+      desc: "NextaFlow is an all-in-one CRM and automation platform designed to help businesses grow without juggling multiple tools.",
+      buttons: ["Live <~>"],
+      live: "https://www.nextaflow.net/",
+      github: "https://github.com/edoubleone/nextaflowFrontend",
+    },
     {
       image: nextaflow,
       stack:

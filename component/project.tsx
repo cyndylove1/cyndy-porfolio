@@ -7,6 +7,7 @@ import { AnimatedItem } from "./animatedItem";
 import suft from "@/public/assets/suft.png";
 import chequemate from "@/public/assets/chequemate 2.png";
 import blott from "@/public/assets/blottImage.png";
+import nexta from "@/public/assets/nexta1.png";
 import nextaflow from "@/public/assets/nextaflow2.png";
 import Button from "./button";
 import DotIcon from "./dotIcon";
@@ -25,6 +26,16 @@ type Project = {
 
 export default function Project() {
   const projects: Project[] = [
+    {
+      image: nexta,
+      stack:
+        "Next js, Tailwindcss, Daisy UI, Typescript, Restful-Apis, React-Query",
+      title: "NextaFlow",
+      desc: "NextaFlow is an all-in-one CRM and automation platform designed to help businesses grow without juggling multiple tools.",
+      buttons: ["Live <~>"],
+      live: "https://www.nextaflow.net/",
+      github: "https://github.com/edoubleone/nextaflowFrontend",
+    },
     {
       image: nextaflow,
       stack:
